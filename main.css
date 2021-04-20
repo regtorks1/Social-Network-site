@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    
+}
+#side-beauty {
+    background-color: darkviolet;
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+}
+
+#side-resembles {
+    background-color: burlywood;
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+}
+.boxycon {
+    background-color:darkviolet;
+    margin: 10px 0px;
+    box-shadow: 2px 2px 2px grey;
+    
+}
+.boxycon1 {
+    background-color:burlywood;
+    margin: 10px 0px;
+    box-shadow: 2px 2px 2px grey;
+    
+}
+#side-profile {
+    background-color: yellowgreen;
+    margin: 10px 0px;
+    padding: 17px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+#side-all {
+    background-color:rebeccapurple;
+    margin: 10px 0px;
+    padding: 17px;
+    box-shadow: 2px 2px 2px grey;
+}
+#profile-area {
+    text-align:center;
+    color:blanchedalmond;
+    
+    
+}
+
+.comment {
+    background-color:cadetblue;
+    color:beige;
+    font-size: 16px;
+    margin: 15px 0px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px grey;
+}
+.comment-list {
+    padding: 0px;
+    list-style: none;
+}
+#post-form {
+    text-align:center;
+    height: 100px;
+    background-color:lightgrey;
+    padding: 15px;
+    padding-bottom: 35px;
+}
+#post-form textarea {
+    font-size: 16px;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    resize :none;
+    height: 60px;
+
+}
+
+#post-form button{
+    color : white;
+    background-color:rgba(220, 20, 60, 0.603);
+    line-height: 30px ;
+    display: block;
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.2s;
+    border: 0px;
+
+}
+
+#post-form button:hover{
+    background-color:rgba(220, 20, 60, 0.288)
+}
+
+#profile-area{
+      width: 28%;
+      float: left;
+      
+      
+}
+
+#feed-area{
+    width: 72%;
+    padding-top: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    float: left;
+    
+}
+.comment div:first-child {
+    margin-bottom: 15px;
+    
+}
+
+.comment div:nth-child(2) {
+    font-size: 12px;
+    border-top: 1px solid black;
+    padding-top: 15px;
+
+}
+
+.comment div:nth-child(2) a {
+    font-weight: bold;
+    display: block;
+    float: right;
+}
+@media (max-width: 650px) {
+    #profile-area, #feed-area {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 0px;
+    }
+}
